@@ -10,9 +10,9 @@ class ColumbiaStudentResource:
     def _get_connection():
 
         conn = pymysql.connect(
-            user="root",
+            user="admin",
             password="love300471",
-            host="localhost",
+            host="e61561.cq0pqafrrlui.us-east-1.rds.amazonaws.com",
             cursorclass=pymysql.cursors.DictCursor,
             autocommit=True
         )
